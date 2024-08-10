@@ -115,16 +115,18 @@ img {
 
 /* sektion_1 */
 .hero_page {
-    background: #2e2f42;
+    background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero_bg.jpg);
+background-repeat: no-repeat;
+max-width: 1440px;
+background-position: center;
+background-size: cover;
 }
 .container_hero_page {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-}
 
+}
 .hero_title {
         font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -134,6 +136,7 @@ img {
         text-align: center;
         color: #fff;
         max-width: 496px;
+        margin: 0 auto;
 }
 .hero_button {
         background: #4d5ae5;
@@ -149,6 +152,10 @@ img {
         min-width: 169px;
         height: 56px;
         border: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero_button:hover {
     background: #404bbf;
@@ -185,6 +192,17 @@ img {
 .advantages-itam {
         width: 264px;
 }
+.advantages_svg_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        margin-bottom: 8px;
+
+}
 /* section_2_end */
 /* section_3_end */
 .our_teams {
@@ -219,16 +237,21 @@ img {
         color: #2e2f42;
         text-align: center;
         margin-bottom: 8px;
+        
 }
 .container_our_teams_item {
         padding-top: 32px;
         padding-bottom: 32px;
+        height: 104px;
 }
 .our_teams_itam {
         background-color: #fff;
         width: 264px;
-        height: 380px;
+        height: 428px;
         border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .our_teams_text {
         font-family: "Roboto", sans-serif;
@@ -238,7 +261,36 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        margin-bottom: 8px;
 }
+.our_teams_soc_list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+}
+.our_teams_soc_item {
+        width: 40px;
+        height: 40px;
+}
+.our_teams_soc_link {
+        width: 100%;
+        height: 100%;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.our_teams_soc_link:hover,
+.our_teams_soc_link:focus {
+        background-color: #404bbf;
+}
+.our_teams_soc_svg {
+        fill: #f4f4fd;
+}
+
+
+
 .our_portfolio {
         padding-top: 120px;
         padding-bottom: 120px;
