@@ -320,12 +320,13 @@ background-size: cover;
 .our_portfolio_itam {
         width: 360px;
         height: 420px;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our_portfolio_itam:hover {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
-                transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                
 }
 .our_portfolio_itam:hover .our_portfolio_itam_img_text {
         transform: translateY(0%);
@@ -342,6 +343,7 @@ background-size: cover;
         line-height: 1.5;
         letter-spacing: 0.02em;
         padding: 40px 32px;
+        color: #f4f4fd;
         background-color: #4d5ae5;
         height: 100%;
         width: 100%;
