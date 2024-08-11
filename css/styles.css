@@ -100,15 +100,14 @@ img {
         color: #404bbf
 }
 
-.heder_nav_itam:first-child {
+.studio_nav {
         position: relative;
         color: #404bbf;
 }
-.heder_nav_itam:first-child::after {
+.studio_nav ::after {
         content: "" ;
         position: absolute;
         border-radius: 2px;
-        width: 48px;
         height: 4px;
         background: #404bbf;
         width: 100%;
