@@ -105,7 +105,7 @@ img {
         color: #404bbf;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.heder_nav_itam ::after {
+.heder_nav_itam_studio ::after {
         content: "" ;
         position: absolute;
         border-radius: 2px;
